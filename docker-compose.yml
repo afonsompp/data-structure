@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  tad:
+    build:
+      dockerfile: ./modularization/Dockerfile
+      context: .
+    image: afonsompp/tad
+    container_name: tad
