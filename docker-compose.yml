@@ -7,3 +7,9 @@ services:
       context: .
     image: afonsompp/tad
     container_name: tad
+  static-list:
+    build:
+      dockerfile: ./static-list/Dockerfile
+      context: .
+    image: afonsompp/static-list
+    container_name: static-list
